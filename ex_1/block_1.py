@@ -39,3 +39,5 @@ plt.xlabel('Eje X')
 plt.ylabel('Eje Y')
 plt.grid(True)
 plt.show()
+
+print(f"Pull")
