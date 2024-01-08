@@ -12,13 +12,21 @@ def block_1(N):
             tempo += 1
     return tempo
 
+
+
+
+
+
+
+
+
 eje_x = []
 eje_y = []
 
 # Marcar el tiempo de inicio
 start_time = time.time()
 
-for i in range(15000):
+for i in range(50):
     print(f"El tiempo algorítmico de ejecución para {i+1} elementos es de {block_1(i+1)}")
     eje_x.append(i)
     eje_y.append(block_1(i+1))
@@ -39,5 +47,3 @@ plt.xlabel('Eje X')
 plt.ylabel('Eje Y')
 plt.grid(True)
 plt.show()
-
-print(f"Pull")
